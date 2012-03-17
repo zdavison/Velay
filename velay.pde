@@ -52,6 +52,7 @@ class VNote{
 	}
 
 	void display(){
+                smooth();
 		stroke(0,0,0,0);
 		fill(255,180,50,255*life);
 		ellipse(pos.x,pos.y,5,5);
@@ -80,6 +81,7 @@ class VPing{
 	}
 
 	void display(){
+                smooth();
 		strokeWeight(kPingThickness);
 		stroke(255,180,50,255*life);
 		fill(0,0,0,0);
@@ -170,6 +172,7 @@ class VBox{
 	}
 
 	void display(){
+                noSmooth();
 		strokeWeight(2);
 		stroke(255,180,50);
 		fill(80,80,80);
