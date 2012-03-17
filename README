@@ -1,0 +1,14 @@
+Velay is a visual MIDI delay effect written in Processing.
+
+You can use it with any MIDI hosting application of your choice. Just define an input and an output, and then use it as you want.
+
+Play around with resizing the window, and play some notes. You'll get the hang of it quickly.
+
+-----------------------------------
+
+If you want to mess around with the code, you'll want: 
+
+G4P (http://www.lagers.org.uk/g4p/distribution/web/index.html) 
+ProMIDI (http://creativecomputing.cc/p5libs/promidi/)
+
+Enjoy.
