@@ -1,4 +1,6 @@
+
 Velay is a visual MIDI delay effect written in Processing.
+DEMO: https://vimeo.com/38693757
 
 You can use it with any MIDI hosting application of your choice. Just define an input and an output, and then use it as you want.
 
