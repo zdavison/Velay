@@ -139,7 +139,7 @@ class VBox{
 				note.vel.x *= -1;
 				pings.add(new VPing(note));
 			}else if(note.pos.x >= x+w){
-                                note.pos.x = note.pos.x+(w-note.pos.x);
+                                note.pos.x = note.pos.x+(x+w-note.pos.x);
 				note.vel.x *= -1;
 				pings.add(new VPing(note));
                         }
@@ -148,7 +148,7 @@ class VBox{
 				note.vel.y *= -1;
 				pings.add(new VPing(note));
 			}else if(note.pos.y >= y+h){
-                                note.pos.y = note.pos.y+(h-note.pos.y);
+                                note.pos.y = note.pos.y+(y+h-note.pos.y);
 				note.vel.y *= -1;
 				pings.add(new VPing(note));
                         }
